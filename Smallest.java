@@ -2,13 +2,19 @@ package Smallest;
 
 public class Smallest {
     public static void main(String[] args) {
-        int a = 5;
+        int a = 1;
         int b = 2;
-        if(a < b){
-            System.out.println(a);
+        int c = 0;
+        int smallest;
+        if(a<=b && a<=c){
+            smallest = a;
+        }
+        else if(b<=a && b<=c){
+            smallest = b;
         }
         else{
-            System.out.println(b);
+            smallest = c;
         }
+        System.out.println("The smallest number is: " + smallest);
     }
 }
