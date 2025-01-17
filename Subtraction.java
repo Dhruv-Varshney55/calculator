@@ -5,6 +5,6 @@ public class Subtraction {
         int a = 100;
         int b = 20;
         int x = a - b;
-        System.out.println("Sum = " + x);
+        System.out.println("Difference = " + x);
     }
 }
