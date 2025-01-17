@@ -4,11 +4,17 @@ public class Largest {
     public static void main(String[] args) {
         int a = 5;
         int b = 2;
-        if(a > b){
-            System.out.println(a);
+        int c = 9;
+        int largest;
+        if(a>=b && a>=c){
+            largest = a;
+        }
+        else if(b>=a && b>=c){
+            largest = b;
         }
         else{
-            System.out.println(b);
+            largest = c;
         }
+        System.out.println("The largest number is: " + largest);
     }
 }
